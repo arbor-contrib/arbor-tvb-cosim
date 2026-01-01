@@ -1,0 +1,11 @@
+numpy==1.26.4
+tvb-library==2.9
+tvb-contrib==2.9
+tvb-data
+mpi4py
+pandas
+scikit-build-core
+matplotlib
+seaborn
+pybind11-stubgen
+polars
