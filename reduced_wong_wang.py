@@ -124,7 +124,6 @@ class TvbSim:
 
     def __call__(self, time, proxy_data=None):
         if proxy_data is not None:
-            print(proxy_data[0].shape, proxy_data[1].shape)
             proxy_data[1] = np.reshape(
                 proxy_data[1],
                 (

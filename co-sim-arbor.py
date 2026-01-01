@@ -306,6 +306,7 @@ else:  # running TVB
 
                 rates[:, proxy_id] = from_arb_rates[1].squeeze() / G
                 dfs.append(rates)
+                t += sim.min_delay  # in the end, t = T in Arbor                
     except Exception as e:
         print("PANIC!!!! TVB broke with")
         print_exception(e)
